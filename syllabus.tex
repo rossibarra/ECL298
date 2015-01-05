@@ -3,116 +3,144 @@
 \begin{document}
 
 \title{ECL 298 Syllabus}
-\author{Ross-Ibarra}
-\date{Today}
 \maketitle
+
+%lead on 1 2nd on 3
+%writes a paragraph
+% lead write panel summary
+
+%rank 
+
+%syllabus, assignment, lecture
+%assignment: *NIX terminal, linux commands, sign in to cluster: HW screen shot
+
+% 30% proposal & 10% review
+% 30% workshop
+% 30% discussion
+
+%putty, cygwin, 
+
+%20 individuals
+%2x coverage each
+%work on cluster
 
 \section*{Instructors}
 
-\href{mailto:rossibarra@ucdavis.edu}{Jeffrey Ross-Ibarra}\\
+\href{mailto:micmiller@ucdavis.edu}{Mike Miller}\\
+Meyer 2241\\
+
+\noindent \href{mailto:rossibarra@ucdavis.edu}{Jeff Ross-Ibarra}\\
 262 Robbins Hall\\
-Office Hours: M 10am-12pm
+
+\noindent \href{mailto:awhitehead@ucdavis.edu}{Andrew Whitehead}\\
+4121 Meyer Hall\\
+
+\subsubsection*{TA}\\
+\href{mailto:adurvasula@ucdavis.edu}{Arun Durvasula}\\
+262 Robbins Hall\\
+
+\noindent Office hours for all instructors are by appointment.
 
 \section*{Workshops}
+The workshop section of the class will investigate some basic population genomics questions in an endangered wild rice population from Costa Rica. Data analysis will be assigned as homework each week, and students are expected to come to class with a laptop to work on the data.  
 
-Teams of students of 2-4 people. Grades assigned by team. In each class we will start by going over results and interpretation from previous week, then lecture on new topic, then hand-on work to start computation for new topic.
+\section*{Journal discussion}
+Each week we will read two journal papers. A group of three students will be assigned to lead the discussion on these papers.
 
 \section*{Proposal}
-Abstract due week 5. Full proposal due week 8. \\
-Page limit, format??  Suggest NSF GPG!
+You will write an ecological genomics grant proposal, following the guidelines for the NSF DDIG.  The proposal abstract is due on 2/4, and the full proposal due 2/25. \\
 
 \subsection*{Panel Review}
-Each proposal gets 3 reviewers, 1 primary and 2 secondary. Primary gets 5 minutes, secondaries get to add comments and overall panel discussion. Last hour of 2nd class will be for ranking and overall discussion. Rank on science, choose best science that is also feasible for next year?
+Each student will be assigned to be primary reviewer on 1 proposal and secondary reviewer on 3 proposals. The lead reviewer will write the panel summary for each proposal.
+
+\section*{Grading}
+Your grade will be 30\% proposal, 10\% proposal review, 30\% workshop, and 30\% discussion.
 
 \section*{Schedule}
 \begin{enumerate}
 
-\item Lectures
+\item Lectures 1
 \begin{itemize}
-\item 1/5 Introduction to genomics (Miller)
-\item 1/7 Experimental design (Whitehead)
+\item 1/5 Introduction to sequencing 
+\item 1/7 Experimental design 
 	\begin{itemize}
-	\item HW: work through UNIX tutorial, bring functioning *NIX OS.
+	\item HW: UNIX tutorial, Farm login
 	\end{itemize}
 \end{itemize}
 
 \item Workshop/Reading
-\begin{itemize}
-	\item 1/12 Workshop: Introduction to UNIX, ssh
 	\begin{itemize}
-		\item basic UNIX, UNIX philosophy, project setup, ssh
-		\item HW: Get a cluster account, make a project directory, download files
-	\end{itemize}
-	\item 1/14 Reading: Chapters from Buffalo
+	\item 1/12 Workshop: sequence data
+		\begin{itemize}
+		%\item sequence data, data quality issues, read mapping issues
+		\item HW: map reads, describe data
+		\end{itemize}
+	\item 1/14 Reading: comparative genomics
 \end{itemize}
 
 \item Workshop/Reading
 	\begin{itemize}
-	\item 1/19 Workshop: Sequence data
-		\begin{itemize}
-		\item sequence data, data quality issues, read mapping issues
-		\item HW: Estimate depth, clean data, map reads.
-		\end{itemize}
-	\item 1/21 Reading: TBA
+	\item 1/19 MLK day: no class
+	\item 1/21 Reading: genomic basis of adaptation, genotype-phenotype mapping
 \end{itemize}
 
 \item Workshop/Reading
 	\begin{itemize}
-	\item 1/26 Workshop: SNPs and diversity
+	\item 1/26 Workshop: genetic diversity
 		\begin{itemize}
-		\item SNP calling, genotype likelihoods, ANGSD intro
-		\item HW: call genotypes, estimate diversity and D across a chromosome (one chromosome per group)
-		\end{itemize}
-	\item 1/28 Reading: TBA
+%		\item SNP calling, genotype likelihoods, ANGSD intro
+		\item HW: estimate diversity statistics		\end{itemize}
+	\item 1/28 Reading: genomic basis of adaptation, genome scans
 \end{itemize}
 
 \item Workshop/Reading
 	\begin{itemize}
-	\item 2/2 Mon. Workshop: Demography and Selection
+	\item 2/2 Workshop: demography and selection
 		\begin{itemize}
-		\item SFS, inbreeding, selective sweeps
-		\item HW: run ngsF, plot SFS, (alternatives: run sweepfinder, identify RoH?)
+%		\item SFS, selective sweeps
+		\item HW: SFS, genome scan		
 		\end{itemize}
-	\item 2/4 Wed. Reading: TBA
+	\item 2/4 Reading: demography and admixture
+		\begin{itemize}
+%		\item SFS, selective sweeps
+		\item proposal abstracts due		
+		\end{itemize}
 \end{itemize}
 
 \item Workshop/Reading
 	\begin{itemize}
-	\item 2/9 Mon. Workshop: Population Structure
+	\item 2/9 Workshop: admixture and population structure
 		\begin{itemize}
-		\item STRUCTURE theory, $F_{ST}$, 2D SFS
-		\item HW: run ANGSD admixture, $F_{ST}$ analysis (alternatives: Geneva G', ABBA-BABBA)
-		\end{itemize}
-	\item 2/11 Wed. Reading: TBA
+	%	\item STRUCTURE theory, $F_{ST}$, 2D SFS
+		\item HW: admixture, $F_{ST}$ outliers 	\end{itemize}
+	\item 2/11 Reading: functional genomics and physiological ecology
 \end{itemize}
 
 \item Workshop/Reading
 	\begin{itemize}
-	\item 2/16 Mon. Workshop: Ranges ??
-		\begin{itemize}
-		\item bedtools, GO terms
-		\item HW: identify introgressed and selected loci
-		\end{itemize}
-	\item 2/18 Wed. Reading: TBA
+	\item 2/16 President's Day: no class
+%		\begin{itemize}
+%		\item RNA-seq methods
+%		\item HW: compare differential expressed genes with differentiation, introgression
+%		\end{itemize}
+	\item 2/18 Reading: community genomics
 \end{itemize}
 
 \item Workshop/Reading
 	\begin{itemize}
-	\item Mon. Workshop: RNA-seq
+	\item 2/23 Workshop: RNAseq
 		\begin{itemize}
-		\item RNA-seq methods
-		\item HW: compare differential expressed genes with differentiation, introgression
+		\item HW: identify differentially expressed genes
 		\end{itemize}
-	\item Wed. Reading: TBA
+	\item 2/25 Reading: disease ecology and environmental forensics
+		\begin{itemize}
+		\item proposals due
+		\end{itemize}
 \end{itemize}
 
 \item Panel discussions
 
-\item Fieldwork
-\begin{itemize}
-\item TBA
-\end{itemize}
-
+\item Panel discussions
 
 \end{enumerate}
 
